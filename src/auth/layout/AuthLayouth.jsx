@@ -3,7 +3,8 @@ import Typography from '@mui/material/Typography'
 
 export const AuthLayouth = ({ children, title = '' }) => {
   return (
-    <Grid container
+    <Grid
+      container
       spacing={ 0 }
       direction="column"
       alignItems="center"
